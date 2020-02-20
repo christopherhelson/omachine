@@ -1,0 +1,99 @@
+body {
+    background-color:#777;
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+#views {
+    position:absolute;
+    left:450px;
+    top:40px
+}
+
+
+/*#views > :first-child .seen {
+    transform: scale(2);
+    position: relative;
+    left: -200px;
+    top: 100px;
+}*/
+
+.label {
+    position: absolute;
+    color: white;
+}
+
+#projection {
+    top: 15px;
+    left: 620px;
+}
+
+#seen {
+    top: 15px;
+    left: 860px;
+}
+
+line {
+    stroke:white;
+}
+
+.camera {
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+.camera:hover {
+    opacity: 1;
+}
+
+text {
+    fill: white;
+    stroke: transparent;
+}
+
+.button {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.off {
+    opacity:0.35;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.camera line {
+    stroke:black;
+}
+
+rect.surface {
+    fill: black;
+    stroke: transparent;
+    stroke-opacity:0.5;
+}
+
+rect.surfaceBackground {
+    fill: black;
+    stroke: black;
+}
+
+
+rect.lightStripe {
+    fill: white;
+}
+
+svg.view {
+    padding-top:10px;
+}
+
+.outline {
+    stroke: black;
+    fill: black;
+}
+
+.seen .outline {
+    fill: rgb(50, 50, 50);
+}
